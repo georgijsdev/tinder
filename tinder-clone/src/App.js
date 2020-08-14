@@ -1,12 +1,11 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Header from './Header';
-import TinderCards from './TinderCards';
-import './App.css';
+
+import {Header, TinderCards} from './components';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Router>
         <Switch>
